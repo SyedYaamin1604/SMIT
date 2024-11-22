@@ -1,0 +1,648 @@
+/* variable */
+
+:root {
+    --red: #ed1c24;
+    --black: #000000;
+    --white: #ffffff;
+    --grey: #d3d3d3;
+    --dark-grey: #141414;
+    --green: #28a745;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+/* Header start*/
+.logo {
+    padding: 7px 20px;
+    margin-left: 80px;
+    cursor: pointer;
+}
+
+.logo img {
+    width: 165px;
+}
+
+/* navbar styling start */
+.navbar {
+    gap: 25px;
+    margin-right: 90px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+#franchise {
+    border: 1px solid var(--white);
+    background-color: transparent;
+    margin: 10px;
+    padding: 19px 16px;
+}
+
+#order-online {
+    background-color: var(--red);
+    margin: 10px;
+    padding: 19px 16px;
+    cursor: pointer;
+}
+
+.arrow-right {
+    width: 5px;
+    padding: 7px 10px;
+    border-radius: 50px;
+    background-color: var(--white);
+    color: var(--red);
+    cursor: pointer;
+}
+
+/* navbar styling end */
+
+/* Header end */
+
+/* HOMEPAGE Starts */
+
+/* Body starts */
+
+/* <!-- Salt n Pepper Brands Section Starts --> */
+.body-1 {
+    height: 525px;
+}
+
+.restaurants-h {
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.snp {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.order-box {
+    gap: 10px;
+}
+
+.order {
+    background-color: var(--white);
+}
+
+.order img {
+    width: 200px;
+}
+
+.order-link {
+    gap: 120px;
+    width: 1370px;
+}
+
+.order-now-link {
+    border: 1px solid var(--white);
+    padding: 13px 35px;
+}
+
+.order-now-link a {
+    color: var(--grey);
+}
+
+/* <!-- Salt n Pepper Brands Section Ends --> */
+
+/* Restaurants Franchises Section Starts */
+.body-2 {
+    background-image: url(./Publications/snp\ bg\ 1.png);
+    background-repeat: no-repeat;
+    background-position-y: 100px;
+    background-position-x: 1000px;
+    background-color: var(--dark-grey);
+    width: 1400px;
+}
+
+.restaurant-franchises-h {
+    font-size: 60px;
+}
+
+.restaurant-franchises-p {
+    font-weight: 700;
+    color: var(--grey);
+}
+
+.rf {
+    gap: 150px;
+}
+
+.rf-2 {
+    gap: 250px;
+}
+
+.rf-h3 {
+    color: var(--red);
+}
+
+.rf-h1 {
+    font-size: 22px;
+    color: var(--grey);
+}
+
+.rf-p {
+    color: var(--grey);
+}
+
+.rf-btn {
+    border: 1px solid var(--white);
+    width: 135px;
+}
+
+.rf-img img {
+    width: 450px;
+}
+
+/* Restaurants Franchises Section Ends */
+
+/* Express Franchises Section Start */
+.body-3 {
+    background-image: url(./Publications/snp\ bg\ 1.png);
+    background-repeat: no-repeat;
+}
+
+.franchises-h {
+    font-size: 60px;
+    line-height: 65px;
+}
+
+.franchises-img img {
+    width: 350px;
+}
+
+.ef-h3 {
+    color: var(--red);
+}
+
+.ef-h1 {
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.ef-snp {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.ef-p {
+    color: var(--grey);
+    font-size: 14px;
+}
+
+.ef-btn {
+    border: 1px solid var(--white);
+    width: 135px;
+    margin-left: 95px;
+}
+
+/* Express Franchises Section End */
+
+/* Village Franchises Section Start */
+.body-4 {
+    background-color: var(--dark-grey);
+}
+
+.vf-h {
+    font-size: 55px;
+}
+
+.vf-img img {
+    width: 700px;
+}
+
+.vf-h3 {
+    color: var(--red);
+    margin-right: 420px;
+}
+
+.vf-snp {
+    font-size: 40px;
+}
+
+.vf-h1 {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.vf-div2 {
+    margin-left: 50px;
+}
+
+.vf-p {
+    color: var(--grey);
+}
+
+.vf-btn {
+    background-color: var(--green);
+    width: 135px;
+}
+
+.vf-arrow-right {
+    width: 5px;
+    padding: 7px 10px;
+    border-radius: 50px;
+    background-color: var(--white);
+    color: var(--green);
+    cursor: pointer;
+}
+
+/* Village Franchises Section End */
+
+/* Social Feed Start */
+.sf {
+    gap: 11px;
+}
+
+.sf-h {
+    font-size: 40px;
+}
+
+.sf-img img {
+    margin-left: 5px;
+    width: 255px;
+}
+
+/* Social Feed End */
+
+/* Body ends */
+
+/* HOMEPAGE Ends */
+
+/* ABOUT US PAGE Starts */
+
+/* ABOUT SEC 1 Start */
+.about-h {
+    font-size: 40px;
+    color: var(--grey);
+}
+
+.about-p {
+    color: var(--grey);
+    padding: 0px 110px;
+}
+
+/* ABOUT SEC 1 End */
+
+/* ABOUT SEC 2 Start */
+.about-div2-text {
+    align-items: center;
+}
+
+.about-div2-img img {
+    width: 500px;
+}
+
+.about-div2-text {
+    width: 40%;
+    margin-top: 30px;
+}
+
+.about-div2 {
+    margin-left: 50px;
+}
+
+.about-div2-h {
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.about-div2-span {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.about-div2-p {
+    color: var(--grey);
+}
+
+/* ABOUT SEC 2 End */
+
+/* ABOUT SEC 3 Start */
+
+.about-div3-h {
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.about-div3-span {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.about-sec3-p {
+    width: 500px;
+    
+}
+
+.about-div3-p {
+    font-size: 15px;
+    color: var(--grey);
+}
+
+.about-sec3-img img {
+    width: 500px;
+}
+
+.about-sec3-div {
+    margin: 0px 50px;
+    gap: 30px;
+    padding: 0px 80px;
+}
+
+/* ABOUT SEC 3 End */
+
+/* ABOUT SEC 4 Start */
+
+.about-sec4-h {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.about-sec4-span {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.about-sec4-mdiv {
+    gap: 30px;
+}
+
+.about-sec4-div {
+    background-color: var(--dark-grey);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.about-sec4-img img {
+    width: 350px;
+    border-radius: 10px;
+}
+
+.about-sec4-div-hp {
+    width: 350px;
+}
+
+.about-sec4-div-h {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.about-sec4-div-p {
+    font-size: 14px;
+    font-weight: 100;
+    color: var(--grey);
+}
+
+/* ABOUT SEC 4 End */
+
+/* ABOUT SEC 5 Start */
+
+.about-sec5-h {
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.about-sec5-span {
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.about-sec5-div {
+    gap: 50px;
+}
+
+.about-sec5-div-img img {
+    width: 500px;
+}
+
+.about-sec5-div-h3 {
+    font-size: 12px;
+}
+
+.about-sec5-div-h {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.about-sec5-div-hspan {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.about-sec5-div-p {
+    color: var(--grey);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+/* ABOUT SEC 5 End */
+
+/* ABOUT US PAGE Ends */
+
+/* PUBLICATIONS PAGE Starts */
+
+/* PUBLICATION SEC 1 Start */
+
+.publications-sec1-div {
+    gap: 40px;
+}
+
+.publications-sec1-img1 img {
+    width: 550px;
+}
+
+.publications-sec1-img2 img {
+    width: 550px;
+}
+
+.publications-sec1-img1 {
+    border: 1px solid var(--grey);
+    padding: 15px 0px;
+}
+
+.publications-sec1-img2 {
+    border: 1px solid var(--grey);
+    padding: 15px 0px;
+}
+
+/* PUBLICATION SEC 1 End */
+
+/* PUBLICATION SEC 2 Start */
+
+.publications-sec2-h {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.publications-sec2-p {
+    color: var(--grey);
+    font-size: 15px;
+}
+
+/* PUBLICATION SEC 2 End */
+
+/* PUBLICATIONS PAGE Ends */
+
+/* FEEDBACK PAGE Starts */
+.form{
+    width: 550px;
+    margin: auto;
+}
+.feedback-sec-h {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.star-5-sec {
+    gap: 60px;
+    color: var(--grey);
+}
+
+.star-5-sec-h1 {
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.star-5-sec-h2 {
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.star-5-sec-h3 {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.star-5-sec-h4 {
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.form-e {
+    font-size: 15px;
+    padding: 15px 0px;
+    padding-right: 350px;
+    border-radius: 10px;
+}
+
+.form-t{
+    font-size: 15px;
+    margin-left: 4px;
+}
+
+.form-btn{
+    background-color: var(--red);
+    color: var(--white);
+    border-radius: 30px;
+    padding: 15px 10px;
+    font-size: 13px;
+    font-weight: 100;
+}
+/* FEEDBACK PAGE Ends */
+
+/* FRANCHISE PAGE Starts */
+
+.franchise-h{
+    font-size: 40px;
+}
+
+.franchise-form-mdiv{
+    gap: 30px;
+}
+.franchise-btn{
+    padding: 15px 45px;
+    background-color: var(--red);
+    color: var(--white);
+    border-radius: 30px;
+    font-size: 14px;
+}
+/* FRANCHISE PAGE Ends */
+
+/* Footer Start */
+.footer {
+    background-image: url(./Publications/snp\ bg\ 1.png);
+    background-repeat: no-repeat;
+    background-color: var(--dark-grey);
+    height: 450px;
+    color: var(--grey);
+}
+
+.footer-logo img {
+    width: 165px;
+}
+
+.site-links li a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.footer-sitelinks a {
+    text-decoration: none;
+    color: var(--grey);
+    line-height: 45px;
+}
+
+.footer-p {
+    color: var(--grey);
+    line-height: 35px;
+}
+
+.footer-h3 {
+    font-size: 18px;
+}
+
+.footer-div1 {
+    margin-top: 50px;
+    width: 35%;
+    padding: 40px;
+}
+
+.footer-div2 {
+    margin-top: 40px;
+    width: 15%;
+    padding: 40px;
+}
+
+.footer-div3 {
+    margin-top: 50px;
+    width: 25%;
+    padding: 30px;
+}
+
+.footer-div4 {
+    margin-top: 50px;
+    width: 15%;
+    padding: 30px;
+}
+
+.social-apps {
+    width: 15px;
+    padding: 12px 14px;
+    border-radius: 50px;
+    background-color: var(--red);
+    color: var(--white);
+    cursor: pointer;
+}
+
+.social {
+    gap: 10px;
+}
+
+/* Footer End */

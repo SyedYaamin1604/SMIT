@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Navbar Styling Start */
+.navbar-nav {
+    gap: 10px;
+}
+
+.nav {
+    gap: 150px;
+}
+
+#autos {
+    font-weight: 900;
+    font-size: 25px;
+}
+
+/* Navbar Styling End */
+.carousel-item img {
+    height: 92vh
+}
+
+.heading {
+    text-align: center;
+}
+
+.card-div {
+    gap: 5%;
+}
+
+.card-text-1 {
+    margin-top: 0px;
+}
+
+.fs-1 {
+    margin-top: -20px;
+}
+
+/* Footer DIV Start */
+
+.footer-mdiv {
+    gap: 15%;
+}
+
+.footer-h {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.footer-p {
+    font-size: 1.1rem;
+}
+
+.footer-sitelinks ul {
+    list-style: none;
+}
+
+.footer-sitelinks ul li {
+    font-size: 1.1rem;
+    line-height: 170%
+}
+.footer-sitelinks ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.social {
+    gap: 10%;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.social-apps {
+    color: black;
+}
+
+/* Footer DIV End */
