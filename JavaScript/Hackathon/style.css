@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: var(--lightpink);
+}
+
+:root {
+    --lightpink: #f5ebdc;
+    --black: #000000;
+    --darkbrown: #502314;
+    --red: #d62300;
+    --white: #FFFFFF;
+}
+
+main {
+    background-color: var(--lightpink);
+}
+
+/* Header Starts */
+header {
+    background-color: var(--lightpink);
+}
+
+.container {
+    background-color: var(--lightpink);
+}
+
+.header-div1-ch1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--darkbrown);
+}
+
+.header-div3-ch2 img {
+    width: 70px;
+    background-color: var(--lightpink);
+    background: var(--lightpink);
+}
+
+.header-div2 {
+    gap: 10px;
+}
+
+.header-div1-ch1 a{
+    text-decoration: none;
+    color: var(--darkbrown);
+}
+
+.header-div2-ch1 {
+    background-color: var(--red);
+    padding: 10px;
+    color: var(--white);
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+    border-radius: 30px;
+}
+
+.header-div2-ch1 a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.header-div2-ch2 a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.header-div2-ch2 {
+    background-color: var(--darkbrown);
+    padding: 10px;
+    color: var(--white);
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+    border-radius: 30px;
+}
+
+/* Header Ends */
+
+/* Body Starts */
+#body-div1 {
+    gap: 15px;
+}
+
+.body-div1-ch1 {
+    font-size: 3rem;
+    font-weight: 900;
+    color: var(--darkbrown);
+    padding-left: 10px;
+    width: 40%;
+}
+
+#body-div1-span1 {
+    border-radius: 30px;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 10px 20px;
+    color: var(--white);
+    background-color: var(--red);
+}
+
+#body-div1-span2 {
+    border: 1px solid var(--red);
+    border-radius: 30px;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 10px 15px;
+    color: var(--red);
+}
+
+.body-div1-ch2 {
+    width: 50%;
+}
+
+.body-div1-ch2 img {
+    width: 90%;
+}
+
+/* Body Ends */
+
+@media(max-width:1024px) {
+    #body-div1 {
+        text-align: center;
+    }
+}
+
+@media(max-width:768px) {
+    #body-div1 {
+        text-align: center;
+    }
+}
+
+@media(max-width:440px) {
+    #body-div1 {
+        text-align: center;
+    }
+}

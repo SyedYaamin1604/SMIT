@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(90deg, #00d4ff, #090979);
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    height: 40vh;
+    text-align: center;
+    padding: 70px 40px;
+    margin: 200px auto 0;
+    border-radius: 40px;
+    color: white;
+    font-size: 1.5rem;
+    background: linear-gradient(20deg, #090979 , #00d4ff);
+}
+
+.btn {
+    font-size: 20px;
+    border-radius: 25px;
+    padding: 4px 15px;
+    border: none;
+    outline: none;
+}

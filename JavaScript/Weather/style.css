@@ -1,0 +1,59 @@
+body {
+    background: linear-gradient(90deg, #020024, #054336, #0cf766);
+}
+
+.container {
+    width: 20%;
+}
+
+#div {
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 40px;
+    max-width: 500px;
+    width: 90%;
+    text-align: center;
+    /* display: flex;
+    justify-content: center; */
+    min-height: 20vh;
+    margin: 10px auto 0;
+    padding: 70px 40px;
+}
+
+#weather {
+    width: 100%;
+}
+
+#weather h1 {
+    font-size: 45px;
+    color: white;
+}
+
+#temp h3 {
+    font-size: 25px;
+    color: white;
+}
+
+#city {
+    width: 60%;
+    padding: 8px;
+    padding-left: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+#btn {
+    width: 11%;
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 2px solid whitesmoke;
+    color: white;
+    background: transparent;
+}
+
+#btn:hover {
+    background-color: white;
+    color: black;
+}
